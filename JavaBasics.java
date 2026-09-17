@@ -177,6 +177,36 @@ public class JavaBasics {
         //     default: System.out.println("wrong entry");;
         // }
 
+        //While loop
+        // int counter = 0;
+        // while (counter < 100) {
+        //     System.out.println("Hello World");
+        //     counter++;
+            
+        // }
+
+        // System.out.println("Print Hello World 100x");
+
+
+        //Print number from 1 to 10
+        // int counter = 1;
+        // while (counter <= 10) {
+        //     System.out.println(counter);
+        //     counter++;
+            
+        // }
+
+        //print number fron 1 to  n 
+        System.out.print("Enter uour range :");
+        int range = sc.nextInt();
+        int counter = 1;
+        while (counter <= range) {
+            System.out.println(counter + " ");
+            counter++;
+        }
+
+        System.out.println();
+
         
 
     }
