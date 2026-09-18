@@ -197,12 +197,52 @@ public class JavaBasics {
         // }
 
         //print number fron 1 to  n 
-        System.out.print("Enter uour range :");
-        int range = sc.nextInt();
-        int counter = 1;
-        while (counter <= range) {
-            System.out.println(counter + " ");
-            counter++;
+        // System.out.print("Enter uour range :");
+        // int range = sc.nextInt();
+        // int counter = 1;
+        // while (counter <= range) {
+        //     System.out.print(counter + " ");
+        //     counter++;
+        // }
+
+        // System.out.println();
+
+        //sum of n numbres 
+        // System.out.print("Enter your natural number : ");
+        // int n = sc.nextInt();
+        // int sum = 0;
+
+        // int i = 1;
+        // while (i <= n) {
+        //     sum += i;
+        //     i++;
+            
+        // }
+
+        // System.out.println("sum is : " + sum);
+
+        // for loop example 
+        // int i = 1;
+        // for (int i = 1; i<=5; i++){
+        //     System.out.println("Hello World!");
+        // }
+
+        //print square pattern 
+        // for (int line = 1; line <=4; line++){
+        //     System.out.println("****");
+        // }
+
+
+        // print reverse numaber 
+        System.out.print("Enter your Number :");
+        int n = sc.nextInt();
+
+        System.out.print("Reverse Number is :");
+        while (n > 0) {
+            int lastDigit = n % 10;
+            System.out.print(lastDigit);
+            n = n / 10;
+            
         }
 
         System.out.println();
