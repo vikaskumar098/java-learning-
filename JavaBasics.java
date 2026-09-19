@@ -234,18 +234,67 @@ public class JavaBasics {
 
 
         // print reverse numaber 
-        System.out.print("Enter your Number :");
-        int n = sc.nextInt();
+        // System.out.print("Enter your Number :");
+        // int n = sc.nextInt();
 
-        System.out.print("Reverse Number is :");
-        while (n > 0) {
-            int lastDigit = n % 10;
-            System.out.print(lastDigit);
-            n = n / 10;
+        // System.out.print("Reverse Number is :");
+        // while (n > 0) {
+        //     int lastDigit = n % 10;
+        //     System.out.print(lastDigit);
+        //     n = n / 10;
             
-        }
+        // }
 
-        System.out.println();
+        // System.out.println();
+
+        //Question break keyword
+
+        // do {
+        //     System.out.print("Enter your number : ");
+        //     int n = sc.nextInt();
+
+        //     if (n % 10 == 0 ) {
+        //         break;
+        //     }
+
+        //     System.out.println(n);
+
+        // } while (true);
+
+        // System.out.println("Restart your program");
+
+        //cotinue statement
+        // for(int i = 1; i <= 5; i++ ){
+        //     if (i == 3) {
+        //         continue;
+        //     }
+
+        //     System.out.println(i);
+        // }
+
+
+        //prime or not 
+
+        // int n = sc.nextInt();
+        // if (n == 2) {
+        //     System.out.println("n is prime");
+            
+        // }else{
+        //     boolean isPrime = true;
+        //     for(int i = 2 ; i<= Math.sqrt(n); i++) {
+        //         if (n % i == 0) {
+        //             isPrime = false;
+        //         }
+        //     }
+
+        //     if (isPrime == true) {
+        //         System.out.println("n is prime");
+
+                
+        //     }else{
+        //         System.out.println("n is not prime ");
+        //     }
+        // }
 
         
 
