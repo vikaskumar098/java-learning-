@@ -306,15 +306,15 @@ public class JavaBasics {
         // }
 
         //print half pyramid
-        System.out.print("Enter Your Number : ");
-        int n = sc.nextInt();
-        for(int line = 1; line <= n; line++){
-            for(int number = 1; number <= line; number++){
-                System.out.print(number);
-            }
+        // System.out.print("Enter Your Number : ");
+        // int n = sc.nextInt();
+        // for(int line = 1; line <= n; line++){
+        //     for(int number = 1; number <= line; number++){
+        //         System.out.print(number);
+        //     }
 
-            System.out.println();
-        }
+        //     System.out.println();
+        // }
         
 
     }
