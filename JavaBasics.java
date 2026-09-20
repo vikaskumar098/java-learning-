@@ -296,6 +296,25 @@ public class JavaBasics {
         //     }
         // }
 
+
+        //print star pattern 
+        // for(int line = 1; line <= 4; line++){
+        //     for(int star = 1; star <= line; star++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        //print half pyramid
+        System.out.print("Enter Your Number : ");
+        int n = sc.nextInt();
+        for(int line = 1; line <= n; line++){
+            for(int number = 1; number <= line; number++){
+                System.out.print(number);
+            }
+
+            System.out.println();
+        }
         
 
     }
